@@ -21,7 +21,7 @@ jobs:
 
       - name: SonarQube Scan
         env:
-          SONAR_HOST_URL: "https://aed9-2a01-b740-6012-109-5c06-101-42bc-eaa8.ngrok-free.app/projects" # Change if using a remote SonarQube server
+          SONAR_HOST_URL: "https://aed9-2a01-b740-6012-109-5c06-101-42bc-eaa8.ngrok-free.app" # Change if using a remote SonarQube server
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           sonar-scanner \
