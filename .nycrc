@@ -1,0 +1,16 @@
+{
+    "all": true,
+    "reporter": [
+        "text",
+        "lcov",
+        "json"
+    ],
+    "include": [
+        "test/specs/*.js"
+    ],
+    "exclude": [
+        "wdio.conf.js",
+        "node_modules"
+    ],
+    "report-dir": "./coverage"
+}
